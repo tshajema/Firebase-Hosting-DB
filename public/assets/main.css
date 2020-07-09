@@ -1,0 +1,74 @@
+
+html, body {
+  background-color: black;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.yetu-logo {
+
+  padding-top: 70px;
+
+}
+
+.title {
+
+  color: #fff;
+  font-size: 1.5em;
+  padding-top: 20px;
+
+}
+
+.nav-item {
+  color: white;
+  font-size: 15px;
+  padding: 0 20px;
+
+}
+
+.bottom-link{
+  float:left;
+  width: 20%;
+}
+
+.image-banner {
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px; */
+
+}
+
+.navbar-nav {
+
+  /* float: right; */
+
+}
+
+.share-links {
+
+  color: #fff;
+  padding: 0 10px;
+
+}
+
+@media screen and (max-width: 766px) {
+  .desktopwrapper {
+      display:none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .mobilewrapper {
+      display:none;
+  }
+}
+
+.image-banner-drinks, .image-banner-food, .image-banner{
+  display: block;
+  margin: auto;
+  
+}

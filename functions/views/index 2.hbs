@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>Yetu Festival</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="/">
+        {{!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> --}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        {{!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> --}}
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+        <script src="/scripts/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="/assets/main.css">
+
+    </head>
+    <body>
+        <div class="container desktopwrapper">
+            <div class="row" style="padding: 2rem 0;">
+                <div class="col-sm-2">
+                    <img class="" src="/assets/logo1.png" width="100%" alt="Yetu Logo">
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="https://www.dialadrinkkenya.com/"><img class="image-banner-drinks" src="/assets/icon1text.jpg" width="50%"  alt="drinks"></a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="https://food.jumia.co.ke/"><img class="image-banner-food" src="/assets/icon2text.jpg" width="50%" alt="food"></a> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.ubereats.com/ke"><img class="image-banner" src="/assets/ordernow.jpg" width="30%" alt="order-btn"></a>
+                    </div>
+                </div>
+                <div class="col-sm-3" style="top: 85;">
+                    <div class="share">
+                    <a class="share-links" href="https://www.facebook.com/sharer/sharer.php?u=https://yetu-festival.web.app/" target="_blank" rel="noopener"><i class="fa fa-facebook" style="padding: 0 5px;"></i>
+                    </a>
+                    <a class="share-links" href="https://api.whatsapp.com/send?text=Get Yetu festival live stream here: &quot; https://yetu-festival.web.app/" data-action="share/whatsapp/share" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i></a></li>
+                    <a class="share-links" href="https://twitter.com/intent/tweet?text=Get%20Yetu%20festival%20live%20stream%20here%20https://yetu-festival.web.app/" target="_blank" rel="noopener"><i class="fa fa-twitter" style="padding: 0 5px;"></i> 
+                    </a>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="top: 85;">
+                    <div class="top-nav">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div id="navbarNavAltMarkup" class="collapse navbar-collapse" >
+                                <div class="navbar-nav">
+                                <a class="nav-item nav-link active" href="/">| Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="/login">Login</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                {{!-- <div class="col-sm-3" style="padding-top:5rem;">
+                </div> --}}
+            </div>
+        </div>
+        {{!-- <div class="container">
+            <div class="row">
+                <div class="col-sm-6 title">
+                    Share The Show on
+                    
+                </div>
+                <div class="col-sm-6">
+                    
+                </div>
+            </div>
+        </div> --}}
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div style="padding-bottom: 3rem;">
+                        <iframe src="https://www.dailymotion.com/embed/video/x7obs6e?queue-enable=false"
+                        type="text/html"
+                        frameborder="0"
+                        height="600px"
+                        width="100%"
+                        allow="autoplay"
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="bottom-nav">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div id="navbarNavAltMarkup" class="collapse navbar-collapse" >
+                                <div class="navbar-nav" style="width: 100%;">
+                                <a class="nav-item nav-link bottom-link active" href="#">About Us <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link bottom-link" href="#">Contact Us</a>
+                                <a class="nav-item nav-link bottom-link" href="#">Payments</a>
+                                <a class="nav-item nav-link bottom-link" href="#">Feedback</a>
+                                <a class="nav-item nav-link bottom-link" href="#">Terms and Conditions</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mobilewrapper">
+            <div class="row">
+                <div class="col-sm-3" style="padding:5rem;">
+                    <img class="" src="/assets/yetulogo.jpg" width="100%" alt="Yetu Logo">
+                </div>
+                <div class="col-sm-3" style="padding:0rem;">
+                    <a href="https://www.dialadrinkkenya.com/"><img class="image-banner" src="/assets/icon1text.jpg" width="40%"  alt="drinks"></a>
+                </div>
+                <div class="col-sm-3" style="padding:0rem;">
+                    <a href="https://food.jumia.co.ke/"><img class="image-banner" src="/assets/icon2text.jpg" width="40%" alt="food"></a> 
+                </div>
+                <div class="col-sm-3" style="padding:5rem 0;">
+                    <a href="https://www.ubereats.com/ke"><img class="image-banner" src="/assets/ordernow.jpg" width="50%" alt="order-btn"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
